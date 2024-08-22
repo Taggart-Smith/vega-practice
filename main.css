@@ -1,3 +1,13 @@
+a {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -10,4 +20,8 @@ header > .search-bar {
     display: flex;
     align-items: center;
     border: 10px;
+}
+
+.word-create {
+    font-weight: 200;
 }
