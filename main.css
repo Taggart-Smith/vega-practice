@@ -6,6 +6,7 @@ a {
 body{
     margin: 0;
     padding: 0;
+    width: 100%;
 }
 
 header {
@@ -24,4 +25,25 @@ header > .search-bar {
 
 .word-create {
     font-weight: 200;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.badge {
+    background-color: #dadfea;
+    width: 200px;
+    border: 1px solid #2a2a2a;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    height: 150px;
 }
